@@ -10,3 +10,10 @@ body {
 #root {
   height: 100vh;
 }
+
+.portfolio {
+  width: 1200px;
+  height: 768px;
+  border: none;
+  border-radius: 10px;
+}
