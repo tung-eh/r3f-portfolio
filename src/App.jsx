@@ -9,14 +9,16 @@ import { useControls } from "leva";
 import Computer from "./Computer";
 
 const ThreeScene = () => {
+  /*
   const { bgColor } = useControls({
-    bgColor: "#695b5b",
+    bgColor: "#f5e9e9",
   });
+  */
 
   return (
     <>
       <Environment preset="city" />
-      <color args={[bgColor]} attach="background" />
+      <color args={["#f5e9e9"]} attach="background" />
 
       <PresentationControls
         global
@@ -27,6 +29,14 @@ const ThreeScene = () => {
         snap={{ mass: 4, tension: 400 }}
       >
         <Float floatIntensity={0.4}>
+          <rectAreaLight
+            width={2.5}
+            height={1.65}
+            intensity={65}
+            color={"#ffffe5"}
+            rotation={[-0.1, Math.PI, 0]}
+            position={[0, 0.55, -1.15]}
+          />
           <Computer />
         </Float>
       </PresentationControls>
