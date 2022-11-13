@@ -17,3 +17,9 @@ body {
   border: none;
   border-radius: 10px;
 }
+
+.portfolio-mobile {
+  width: 375px;
+  height: 765px;
+  border: none;
+  border-radius: 8px 8px 30px 30px;

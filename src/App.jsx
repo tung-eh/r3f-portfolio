@@ -7,6 +7,7 @@ import {
 } from "@react-three/drei";
 import { useControls } from "leva";
 import Computer from "./Computer";
+import Mobile from "./Mobile";
 
 const ThreeScene = () => {
   /*
@@ -38,6 +39,7 @@ const ThreeScene = () => {
             position={[0, 0.55, -1.15]}
           />
           <Computer />
+          <Mobile />
         </Float>
       </PresentationControls>
 

@@ -5,7 +5,7 @@ const Computer = () => {
   const computer = useGLTF("./macbook.gltf");
 
   return (
-    <primitive object={computer.scene} position-y={-1.2}>
+    <primitive object={computer.scene} position={[0, -1.2, 0]}>
       <Html
         transform
         distanceFactor={1}
