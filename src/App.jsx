@@ -18,7 +18,6 @@ const ThreeScene = () => {
 
   return (
     <>
-      <Environment preset="city" />
       <color args={["#f5e9e9"]} attach="background" />
 
       <PresentationControls
